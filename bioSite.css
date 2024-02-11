@@ -72,20 +72,24 @@ h3{
 	grid-column-start: 1;
 	grid-column-end: 3;
 }
+#hobcontainer{
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row: 1 / 3;
+}
 #portcontainer{
 	text-align: center;
-	
 }
 h4{
 	text-align: center;
 	font-size: 20px;
 	text-decoration: underline;
 	color: #1C22E6;
-	
 }
 img{
-	width: 300px;
-	height: 300px;
+	width: 400px;
+	height: auto;
 	padding: 5px;
 	border-radius: 10px;
 }
@@ -93,39 +97,39 @@ img{
 	grid-column: 1;
 	text-align: center;
 }
-.hobleft{
-	display: flex;
-
+#hobleft{
+	grid-column: 1;
+	grid-row: 2;
 }
-#lefthob{
-	position: absolute;
-	text-align: center;
-	right: 0;
+#fighobleft{
+	grid-column: 1;
+	grid-row: 2;
 }
 .center{
 	grid-column: 2;
 	text-align: center;
 }
 .hobcenter{
-	
+	text-align: right;
+
 }
 .right{
 	grid-column: 3;
 	text-align: center;
 }
 .hobright{
-	
+	text-align: left;
 }
 figcaption{
 	text-align: center;
 	background-color: #9161E0;
 	margin-left: 100px;
 	margin-right: 100px;
+	color: white;
 }
 footer{
 	background-color: #558AE0;
 	position: absolute;
-	bottom: 0;
 	right: 0;
 	height: 5%;
 }
@@ -136,6 +140,7 @@ footer a{
 	padding-right: 10px;
 	font-style: italic;
 	margin-top: 10%;
+	bottom: 0;
 }
 footer a{
 	text-decoration: none;
